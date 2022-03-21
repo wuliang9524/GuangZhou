@@ -1,0 +1,23 @@
+{
+    "name": "logan/guangzhou",
+    "description": "广州地区接口 SDK 包",
+    "type": "lib",
+    "autoload": {
+        "psr-4": {
+            "Logan\\Guangzhou\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "long",
+            "email": "wuliang9524@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
